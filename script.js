@@ -6,7 +6,7 @@ function uploadImage() {
     const formData = new FormData();
     formData.append('image', file);
 
-    fetch('https://your-backend-url.onrender.com/remove-bg', {
+    fetch('https://rembg-1.onrender.com', {
         method: 'POST',
         body: formData
     })
